@@ -1,0 +1,17 @@
+input {
+    display: inline;
+    width: 400px;
+    height: 60px;
+    margin: 0 auto;
+    background:none;
+    border-bottom: 4px solid #918a9f;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 24px;
+    color: whitesmoke;
+    
+}
+
+input:focus {
+    outline-color: rgb(81, 99, 168);
+}

@@ -1,0 +1,53 @@
+.list-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    gap: 26px;
+}
+
+.check--btn {
+    position: absolute;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5b57616a;
+}
+
+.close--btn {
+    position: absolute;
+    right: 5px;
+    bottom: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5b57616a;
+}
+
+.loading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0) 80%),
+    lightgray;
+    background-repeat: repeat-y;
+    background-size: 50px 500px;
+    background-position: 0 0;
+    animation: shine 1s infinite;	  
+}
+
+@keyframes shine {	
+    to {
+            background-position: 100% 0, /* move highlight to right */ 0 0;
+    }
+}

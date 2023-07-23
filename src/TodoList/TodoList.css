@@ -1,0 +1,56 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    gap: 26px;
+}
+ul::-webkit-scrollbar {
+    display: none;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    height: 60px;
+    background: whitesmoke;
+    border-radius: 10px;
+    color: #5b5761;
+    font-size: 22px;
+}
+
+.close-btn {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    right: 5px;
+    bottom: 36px;
+}
+
+.close-btn:hover {
+    color: rgb(156, 41, 41);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.check-mark {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    left: 12px;
+    bottom: 12px;
+    cursor: pointer;
+}
+
+.tag-completed {
+    text-decoration: line-through;
+}
+
+.icon-completed {
+    color: rgb(21, 223, 21);
+}
