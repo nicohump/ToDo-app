@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/http.//nicohump.github.io/ToDO-app/static/css/main.763588be.css",
-    "main.js": "/http.//nicohump.github.io/ToDO-app/static/js/main.c18d65d6.js",
-    "index.html": "/http.//nicohump.github.io/ToDO-app/index.html",
-    "main.763588be.css.map": "/http.//nicohump.github.io/ToDO-app/static/css/main.763588be.css.map",
-    "main.c18d65d6.js.map": "/http.//nicohump.github.io/ToDO-app/static/js/main.c18d65d6.js.map"
+    "main.css": "/ToDO-app/static/css/main.763588be.css",
+    "main.js": "/ToDO-app/static/js/main.c18d65d6.js",
+    "index.html": "/ToDO-app/index.html",
+    "main.763588be.css.map": "/ToDO-app/static/css/main.763588be.css.map",
+    "main.c18d65d6.js.map": "/ToDO-app/static/js/main.c18d65d6.js.map"
   },
   "entrypoints": [
     "static/css/main.763588be.css",
