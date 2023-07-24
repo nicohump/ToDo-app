@@ -16,7 +16,8 @@ li {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 400px;
+    min-width: 400px;
+    max-width: fit-content;
     height: 60px;
     background: whitesmoke;
     border-radius: 10px;
